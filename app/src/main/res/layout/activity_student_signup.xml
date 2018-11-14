@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient3"
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="WELCOME STUDENT"
+    android:textSize="30sp"
+    android:textColor="#ffffff"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20sp"
+    android:id="@+id/s_welcome"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:text="Name"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/s_welcome"
+        android:layout_marginTop="20dp"
+        android:id="@+id/s_nameTitle"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/s_nameTitle"
+        android:layout_below="@+id/s_welcome"
+        android:layout_marginTop="20dp"
+        android:id="@+id/s_name"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:text="Id"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:id="@+id/s_idTitle"
+        android:layout_below="@+id/s_nameTitle"
+
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/s_nameTitle"
+        android:layout_below="@+id/s_name"
+        android:id="@+id/s_id"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:text="Password"
+
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:id="@+id/s_PassTitle"
+        android:layout_below="@+id/s_idTitle"
+
+        />
+
+    <EditText
+        android:id="@+id/s_pass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/s_PassTitle"
+        android:layout_toEndOf="@+id/s_PassTitle"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:text="Phone"
+
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:id="@+id/s_PhoneTitle"
+        android:layout_below="@+id/s_PassTitle"
+
+        />
+
+    <EditText
+        android:id="@+id/s_phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_pass"
+        android:layout_marginStart="19dp"
+        android:textColor="#ffffff"
+        android:layout_toEndOf="@+id/s_PhoneTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:text="Mess Number"
+
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:id="@+id/s_messNumberTitle"
+        android:layout_below="@+id/s_PhoneTitle"
+
+        />
+
+    <EditText
+        android:id="@+id/s_MessNumber"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_phone"
+        android:layout_marginStart="19dp"
+        android:textColor="#ffffff"
+        android:layout_toEndOf="@+id/s_messNumberTitle"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:text="Joining Date"
+
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:id="@+id/s_joinDateTitle"
+        android:layout_below="@+id/s_messNumberTitle"
+
+        />
+
+    <EditText
+        android:id="@+id/s_joinDate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/s_MessNumber"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/s_joinDateTitle"
+        android:clickable="true"
+        android:hint="dd-mm-yyyy"
+        android:inputType="date"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/student_signup"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:text="SIGN UP"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:layout_below="@id/s_joinDateTitle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="0dp"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:id="@+id/s_totalnumber"/>
+</RelativeLayout>
+

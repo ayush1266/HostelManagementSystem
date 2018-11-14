@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient6"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="CHOOSE DAY"
+        android:textSize="45sp"
+        android:textColor="#000000"
+        android:layout_marginTop="15dp"
+        android:id="@+id/headingChooseDayChangeTT"/>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/headingChooseDayChangeTT"
+        android:id="@+id/MondayChangeTT"
+        android:text="MONDAY"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/MondayChangeTT"
+        android:id="@+id/tuesdayChangeTT"
+        android:text="TUESDAY"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tuesdayChangeTT"
+        android:id="@+id/wednesdayChangeTT"
+        android:text="WEDNESDAY"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/wednesdayChangeTT"
+        android:id="@+id/THRUSChangeTT"
+        android:text="THRUSDAY"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/THRUSChangeTT"
+        android:id="@+id/fridayChangeTT"
+        android:text="FRIDAY"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/fridayChangeTT"
+        android:id="@+id/satChangeTT"
+        android:text="SATURDAY"/>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/satChangeTT"
+        android:id="@+id/SUNChangeTT"
+        android:text="SUNDAY"/>
+
+
+</RelativeLayout>

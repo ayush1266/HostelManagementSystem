@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:background="@drawable/gradient">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:id="@+id/adminNameHeading"
+        android:text="NAME"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:id="@+id/adminManagesHeading"
+        android:text="MANAGES"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_below="@+id/adminNameHeading"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/logout"
+        android:layout_alignParentRight="true"
+        android:id="@+id/adminLogoutButton"/>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Total Student List"
+        android:textSize="20sp"
+        android:layout_below="@+id/adminManagesHeading"
+        android:id="@+id/buttonTotalStudentsList"/>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Today Guests List"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonTotalStudentsList"
+        android:id="@+id/buttonNumberOfGuestsList"/>
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Change Time Table"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonNumberOfGuestsList"
+        android:id="@+id/buttonChangeTimeTable" />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Recharge"
+        android:textSize="20sp"
+        android:layout_below="@+id/buttonChangeTimeTable"
+        android:id="@+id/buttonRecharge"/>
+</RelativeLayout> 

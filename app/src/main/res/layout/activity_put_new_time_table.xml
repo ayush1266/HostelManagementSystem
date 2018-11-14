@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient6"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:text="ENTER NEW TIMETABLE"
+        android:textAlignment="center"
+        android:id="@+id/EnterNEwTimeTableHeading"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/EnterNEwTimeTableHeading"
+        android:id="@+id/enterNewBreakfast"
+        android:layout_marginTop="40dp"
+        android:textColorHint="#000000"
+        android:hint="BREAKFAST"
+        android:textSize="25sp"
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/enterNewBreakfast"
+        android:id="@+id/enterNewLunch"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#000000"
+        android:hint="LUNCH"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/enterNewLunch"
+        android:id="@+id/enterNewDinner"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#000000"
+        android:hint="DINNER"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/enterNewDinner"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:text="UPDATE"
+        android:id="@+id/updateTimeTable"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"/>
+
+</RelativeLayout>

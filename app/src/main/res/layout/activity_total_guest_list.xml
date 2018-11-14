@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient5"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="TOTAL GUEST LIST"
+
+        android:id="@+id/headingTotalGuestList"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="Date"
+        android:layout_below="@+id/headingTotalGuestList"
+        android:id="@+id/headingDate"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="Mess"
+        android:layout_below="@+id/headingDate"
+        android:id="@+id/headingMess"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="Total guest"
+        android:layout_below="@+id/headingMess"
+        android:id="@+id/headingguestNumber"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guestListView"
+        android:divider="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/headingguestNumber"
+        android:foregroundGravity="center"/>
+</RelativeLayout>

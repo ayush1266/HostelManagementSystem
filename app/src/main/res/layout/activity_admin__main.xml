@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="WELCOME ADMIN"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed"/>
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:id="@+id/admin_login"
+        android:text="LOGIN"
+        android:textSize="60sp"
+
+
+        />
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:id="@+id/admin_signup"
+        android:text="signup"
+        android:textSize="60sp"
+        />
+
+
+
+</RelativeLayout>

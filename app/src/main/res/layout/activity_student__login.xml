@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient2">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="WELCOME STUDENT"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/welcome"
+        android:hint="ID"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login_username"
+
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/login_username"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login_password"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:text="LOGIN"
+        android:id="@+id/student_login"
+        android:layout_below="@id/login_password"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

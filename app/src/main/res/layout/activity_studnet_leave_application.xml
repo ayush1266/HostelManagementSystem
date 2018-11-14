@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/gradient2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="37sp"
+        android:textColor="#ffffff"
+        android:text="LEAVE APPLICATION"
+        android:layout_marginTop="40sp"
+        android:id="@+id/leaveApplicationHeading"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="Start Date"
+        android:layout_below="@+id/leaveApplicationHeading"
+        android:id="@+id/leaveStarttext"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:hint="dd-mm-yyyy"
+        android:textColorHint="#ffffff"
+        android:layout_below="@+id/leaveStarttext"
+        android:id="@+id/leavestartinput"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:text="End Date"
+        android:layout_below="@+id/leavestartinput"
+        android:id="@+id/leaveEndtext"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:hint="dd-mm-yyyy"
+        android:textColorHint="#ffffff"
+        android:layout_below="@+id/leaveEndtext"
+        android:id="@+id/leaveEndInput"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:hint="Remarks/reason"
+        android:textColorHint="#ffffff"
+        android:id="@+id/leaveReamrk"
+        android:layout_below="@+id/leaveEndInput"/>
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/logout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/leaveReamrk"
+        android:id="@+id/btnLeaveSubmit"/>
+</RelativeLayout>

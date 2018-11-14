@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient2">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="44dp"
+            android:gravity="center">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="NAME"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/nameAcdetails"
+                android:textAlignment="center" />
+        </TableRow>
+        <View
+            android:background="#000000"
+            android:layout_width = "fill_parent"
+
+            android:layout_height="3dp"
+            android:layout_centerVertical ="true"
+            android:layout_marginTop="5dp"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="ID"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/IdAcdetails"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <View
+            android:background="#000000"
+            android:layout_width = "fill_parent"
+
+            android:layout_height="3dp"
+            android:layout_centerVertical ="true"
+            android:layout_marginTop="5dp"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="PHONE NUMBER"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/phoneAcDetails"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <View
+            android:background="#000000"
+            android:layout_width = "fill_parent"
+
+            android:layout_height="3dp"
+            android:layout_centerVertical ="true"
+            android:layout_marginTop="5dp"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="BALANCE"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/balanceAcDetails"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <View
+            android:background="#000000"
+            android:layout_width = "fill_parent"
+
+            android:layout_height="3dp"
+            android:layout_centerVertical ="true"
+            android:layout_marginTop="5dp"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Mess Number"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/messNoAcDetails"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <View
+            android:background="#000000"
+            android:layout_width = "fill_parent"
+
+            android:layout_height="3dp"
+            android:layout_centerVertical ="true"
+            android:layout_marginTop="5dp"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                    android:text="Joining Date"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/joindateAcDetails"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <View
+            android:background="#000000"
+            android:layout_width = "fill_parent"
+
+            android:layout_height="3dp"
+            android:layout_centerVertical ="true"
+            android:layout_marginTop="5dp"
+            />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Recharge Date"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:id="@+id/rechargedateAcDetails"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <View
+            android:background="#000000"
+            android:layout_width = "fill_parent"
+
+            android:layout_height="3dp"
+            android:layout_centerVertical ="true"
+            android:layout_marginTop="5dp"
+            />
+    </TableLayout>
+
+</RelativeLayout>
